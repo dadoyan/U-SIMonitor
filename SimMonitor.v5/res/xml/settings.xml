@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <PreferenceCategory
+        android:key="set_at_commands"
+        android:title="@string/set_at_commands" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="set_key_stop_ril_daemon"
+            android:summary="@string/set_summary_stop_ril_daemon"
+            android:title="@string/set_title_stop_ril_daemon" />
+
+        <EditTextPreference
+            android:defaultValue="5"
+            android:inputType="number"
+            android:key="set_key_time_interval"
+            android:summary="@string/set_summary_time_interval"
+            android:title="@string/set_title_time_interval" />
+        <EditTextPreference
+            android:defaultValue=""
+            android:key="set_key_imsi_value"
+            android:summary="@string/set_summary_imsi_value"
+            android:title="@string/set_title_imsi_value" />
+
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:enabled="false"
+            android:key="set_key_shutdown_flag"
+            android:summary="@string/set_summary_shutdown_flag"
+            android:title="@string/set_title_shutdown_flag" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="set_backup_server"
+        android:title="@string/set_backup_server" >
+        <EditTextPreference
+            android:defaultValue="@string/backup_server_ip"
+            android:key="set_key_backup_server_ip"
+            android:summary="@string/set_summary_backup_server_ip"
+            android:title="@string/set_title_backup_server_ip" />
+        <EditTextPreference
+            android:defaultValue="@string/backup_server_username"
+            android:key="set_key_backup_server_username"
+            android:title="@string/generic_username" />
+        <EditTextPreference
+            android:defaultValue="@string/backup_server_password"
+            android:key="set_key_backup_server_password"
+            android:title="@string/generic_password" />
+    </PreferenceCategory>
+    <PreferenceCategory
+        android:key="set_db_server"
+        android:title="@string/set_db_server" >
+        <CheckBoxPreference
+            android:defaultValue="false"
+            android:key="set_key_db_server_enable"
+            android:summary="@string/set_summary_db_server_enable"
+            android:title="@string/set_title_db_server_enable" />
+        <EditTextPreference
+            android:defaultValue="@string/db_server_ip"
+            android:key="set_key_db_server_ip"
+            android:summary="@string/set_summary_db_server_ip"
+            android:title="@string/set_title_db_server_ip" />
+        <EditTextPreference
+            android:defaultValue="@string/db_server_username"
+            android:key="set_key_db_server_username"
+            android:title="@string/generic_username" />
+        <EditTextPreference
+            android:defaultValue="@string/db_server_password"
+            android:key="set_key_db_server_password"
+            android:title="@string/generic_password" />
+    </PreferenceCategory>
+
+</PreferenceScreen>

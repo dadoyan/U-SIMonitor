@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">SimMonitor</string>
+    <string name="menu_settings">Settings</string>
+    <string name="startScript">Start Script</string>
+    <string name="stopScript">Stop Script</string>
+    <string name="startService">Start Service</string>
+    <string name="stopService">Stop Service</string>
+    <string name="upload">Upload data</string>
+    <string name="server">83.212.105.117</string>
+    <string name="username">user</string>
+    <string name="password">ssl@server</string>
+    <string name="sftp_folder">android</string>
+    <string name="rootFolder">/data/data/com.dg.simmonitor</string>
+    <string name="dbFolder">/data/data/com.dg.simmonitor/db</string>
+    <string name="responseHistoryFolder">/data/data/com.dg.simmonitor/response-history</string>
+    <string name="scriptsFolder">/data/data/com.dg.simmonitor/scripts</string>
+    <string name="tmpFolder">/data/data/com.dg.simmonitor/tmp</string>
+    <string name="uploadHistoryFolder">/data/data/com.dg.simmonitor/upload-history</string>
+    <string name="dbcsv">db.csv</string>
+    <string name="scriptNameNoRil">atcommandsnoril.sh</string>
+    <string name="scriptNameStopRil">atcommandsstopril.sh</string>
+    <string name="executeNow">Execute Now</string>
+    <string name="clearText">Clear Text</string>
+    <string name="settings">Settings</string>
+    <string name="set_at_commands">AT Commands Settings</string>
+    <string name="set_summary_stop_ril_daemon">Stop ril-daemon during the collention of data if no data is returned by the service</string>
+    <string name="set_title_stop_ril_daemon">Stop ril-daemon</string>
+    <string name="set_summary_time_interval">The time interval of data collection</string>
+    <string name="set_title_time_interval">Time Interval</string>
+    <string name="set_summary_imsi_value">This value is used in order to upload data to the corresponding directory</string>
+    <string name="set_title_imsi_value">IMSI of current SIM Card</string>
+    <string name="set_summary_shutdown_flag">ShutDown Flag</string>
+    <string name="set_title_shutdown_flag">ShutDown Flag</string>
+    <string name="delete_history">Delete Upload History</string>
+    <string name="set_backup_server">Backup Server</string>
+    <string name="set_summary_backup_server_ip">The IP Address of the Backup Server</string>
+    <string name="set_title_backup_server_ip">Backup Server IP</string>
+    <string name="set_db_server">Database Server</string>
+    <string name="set_summary_db_server_ip">The IP address of the Database Server</string>
+    <string name="set_title_db_server_ip">DB Server IP</string>
+    <string name="generic_username">Username</string>
+    <string name="generic_password">Password</string>
+    <string name="backup_server_ip">83.212.105.117</string>
+    <string name="backup_server_username">user</string>
+    <string name="backup_server_password">ssl@server</string>
+    <string name="db_server_ip">195.134.100.174</string>
+    <string name="db_server_username">updidt</string>
+    <string name="db_server_password">unipidi2013</string>
+    <string name="set_summary_db_server_enable">Enable upload to db server</string>
+    <string name="set_title_db_server_enable">Upload to db server</string>
+    
+    
+    
+    
+</resources>

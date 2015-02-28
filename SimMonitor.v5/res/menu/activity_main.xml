@@ -1,0 +1,17 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android" >
+
+     <item 
+        android:id="@+id/clear_data"
+        android:orderInCategory="100"
+        android:title="@string/clearText"/>
+     <item 
+        android:id="@+id/upload_data"
+        android:orderInCategory="100"
+        android:title="@string/upload"/>
+    <item
+        android:id="@+id/menu_settings"
+        android:orderInCategory="100"
+        android:title="@string/menu_settings"/>
+    <item android:id="@+id/delete_history" android:title="@string/delete_history" android:orderInCategory="100"></item>
+    
+</menu>
